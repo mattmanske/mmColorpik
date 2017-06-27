@@ -2,7 +2,7 @@
   "name": "mmColorpik",
   "version": "0.1.0",
   "description": "React component used to select colors from images.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mattmanske/mmColorpik"
@@ -10,8 +10,9 @@
   "author": "Matt Manske <matt@manske.me>",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "plop --plopfile scripts/generators/index.js",
+    "storybook": "start-storybook -p 6006"
   },
   "babel": {
     "presets": [
@@ -20,8 +21,13 @@
     ]
   },
   "dependencies": {
+    "plop": "^1.8.0",
+    "rc-tooltip": "^3.4.6",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-text-mask": "^5.0.2",
+    "styled-components": "^2.1.0",
+    "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
     "@storybook/react": "^3.1.6",
@@ -30,6 +36,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.4",
+    "enzyme": "^2.9.1",
     "file-loader": "^0.11.2",
     "html-loader": "^0.4.5",
     "json-loader": "^0.5.4",

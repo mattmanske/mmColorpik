@@ -15,4 +15,9 @@ module.exports = {
       // add your custom loaders.
     ],
   },
-};
+  resolve : {
+    modules    : ['src', 'node_modules'],
+    extensions : ['.js'],
+    mainFields : ['browser', 'main'],
+  },
+}

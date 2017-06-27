@@ -1,7 +1,7 @@
 //-----------  Imports  -----------//
 
-import Colorpik from './components/Colorpik'
+import ColorPreview from './ColorPreview'
 
 //-----------  Exports  -----------//
 
-export default Colorpik
+export default ColorPreview

@@ -1,7 +1,7 @@
 //-----------  Imports  -----------//
 
-import Colorpik from './components/Colorpik'
+import ColorInput from './ColorInput'
 
 //-----------  Exports  -----------//
 
-export default Colorpik
+export default ColorInput

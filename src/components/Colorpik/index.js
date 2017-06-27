@@ -1,6 +1,6 @@
 //-----------  Imports  -----------//
 
-import Colorpik from './components/Colorpik'
+import Colorpik from './Colorpik'
 
 //-----------  Exports  -----------//
 
